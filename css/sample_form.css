@@ -7,6 +7,7 @@ body{
     max-width: 600px;
     margin: 0px auto;
     padding: 2em;
+    background-color: lightblue;
 }
 
 .headerContainer{
@@ -54,3 +55,10 @@ error-output{
     font-style: italic;
     color: red;
 }
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
